@@ -32,20 +32,23 @@
     <div class="fixed-top pt-3 px-3 z-index-master">
         <nav class="navbar navbar-expand-lg premium-nav-island rounded-4 shadow-sm mx-auto bg-white"
             style="max-width: 1200px;">
-            <div class="container-fluid px-4">
-                <a class="navbar-brand text-gradient fw-bold font-heading fs-6 fs-lg-4" href="#">Godrej Brooklyn Avenues</a>
-                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+            <div class="container-fluid px-4 d-flex flex-nowrap align-items-center">
+                <a class="navbar-brand text-gradient fw-bold font-heading fs-6 fs-lg-4 text-truncate"
+                    style="max-width: 65%;" href="#">Godrej Brooklyn Avenues</a>
+                <button class="navbar-toggler shadow-none border-0 ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav">
                     <i class="bi bi-list fs-2 text-dark"></i>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav align-items-center gap-3 fw-medium">
+                    <ul class="navbar-nav align-items-center gap-2 gap-xl-3 fw-medium" style="font-size: 0.95rem;">
                         <li class="nav-item"><a class="nav-link text-dark" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link text-dark" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#premium-community">Community</a></li>
                         <li class="nav-item"><a class="nav-link text-dark" href="#pricing">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="#amenities">Amenities</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#clubhouse">Clubhouse</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#location">Location</a></li>
                         <li class="nav-item"><a class="nav-link text-dark" href="#gallery">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="#floor-plans">Plans</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#plans">Plans</a></li>
                     </ul>
                 </div>
                 <div class="d-none d-lg-block">
@@ -56,9 +59,9 @@
     </div>
 
     <!-- 1) HERO SECTION -->
-    <section id="home" class="hero-premium d-flex align-items-center position-relative py-5" style="min-height: 80vh;">
+    <section id="home" class="hero-premium d-flex align-items-center position-relative py-5" style="min-height: 100vh;">
         <div class="hero-bg-overlay"
-            style="background-image: url('images/hero_brooklyn_towers.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            style="background-image: url('images/hero%20bg.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         </div>
         <!-- Dark gradient overlay to ensure text visibility -->
         <div class="position-absolute top-0 start-0 w-100 h-100"
@@ -68,7 +71,7 @@
         <div class="container position-relative z-3" style="margin-top: 60px;">
             <div class="row align-items-center justify-content-between g-5">
                 <!-- Left Content -->
-                <div class="col-lg-6 hero-text-content pe-lg-5 text-center text-lg-start" data-aos="fade-right">
+                <div class="col-lg-10 mx-auto text-center hero-text-content" data-aos="fade-up">
                     <div class="d-inline-flex align-items-center bg-white bg-opacity-10 rounded-pill p-1 pe-3 shadow-sm mb-4 border border-white border-opacity-25"
                         style="backdrop-filter: blur(5px);">
                         <span class="badge bg-primary rounded-pill px-3 py-2 me-2"
@@ -79,10 +82,10 @@
                         style="text-shadow: 0 4px 15px rgba(0,0,0,0.3);">Godrej Brooklyn<br>Avenues</h1>
                     <h3 class="text-white fw-medium mb-4" style="text-shadow: 0 2px 10px rgba(0,0,0,0.3);">Something
                         exceptional is coming soon</h3>
-                    <p class="text-white-50 mb-5 lead fs-6 pe-lg-4">Stay tuned for exclusive updates and launch
+                    <p class="text-white-50 mb-5 lead fs-6 px-lg-5">Stay tuned for exclusive updates and launch
                         announcements.</p>
 
-                    <div class="d-flex gap-3 flex-column flex-sm-row justify-content-center justify-content-lg-start">
+                    <div class="d-flex gap-3 flex-column flex-sm-row justify-content-center">
                         <a href="#contact"
                             class="btn btn-primary btn-lg rounded-pill px-5 fw-bold shadow-sm btn-glow text-white border-0"
                             style="background: linear-gradient(135deg, #7B61FF, #4F8CFF);">Get Updates</a>
@@ -91,40 +94,29 @@
                             style="backdrop-filter: blur(5px);">Contact Us</a>
                     </div>
                 </div>
-
-                <!-- Right Content: RERA Certificate -->
-                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="200">
-                    <div class="glass-card-dark p-4 p-md-5 rounded-4 position-relative shadow-lg text-center mx-auto"
-                        style="max-width: 450px;">
-                        <div class="bg-white p-2 rounded-3 mb-4 text-center d-flex justify-content-center align-items-center shadow-sm"
-                            style="min-height: 250px;">
-                            <img src="images/images 1.jpeg" alt="RERA Certificate" class="img-fluid"
-                                style="max-height: 250px; object-fit: contain;">
-                        </div>
-                        <h5 class="fw-bold text-white font-heading mb-2">RERA Approved Project</h5>
-                        <p class="text-white-50 small mb-0">MahaRERA Registration No: Coming Soon</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
+
     <!-- 2) ABOUT PROJECT SECTION -->
     <section id="about" class="py-5 bg-light border-bottom position-relative overflow-hidden">
         <div class="container" data-aos="fade-up">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <div class="glass-card p-4 p-md-5 rounded-5 border-0 shadow-sm">
-                        <span class="badge bg-soft-primary text-primary rounded-pill px-4 py-2 mb-4 fs-6">About Godrej
-                            Brooklyn Avenues</span>
-                        <h2 class="font-heading display-6 text-dark mb-4 lh-base">🔥 One of the Most Awaited Residential
-                            Communities in KPHB, Hyderabad</h2>
-                        <div class="divider-gradient mx-auto mb-4"></div>
-                        <p class="lead text-muted mb-0 font-body px-md-4">
-                            A Pan-India reputed and financially strong developer is bringing a thoughtfully planned
-                            Brooklyn-themed premium residential community in the heart of KPHB.
-                        </p>
-                    </div>
+            <div class="row justify-content-center align-items-center g-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="badge bg-soft-primary text-primary rounded-pill px-4 py-2 mb-4 fs-6">About Godrej
+                        Brooklyn Avenues</span>
+                    <h2 class="font-heading display-6 text-dark mb-4 lh-base">🔥 One of the Most Awaited Residential
+                        Communities in KPHB, Hyderabad</h2>
+                    <div class="divider-gradient mx-auto mx-lg-0 mb-4"></div>
+                    <p class="lead text-muted mb-0 font-body pe-lg-4">
+                        A Pan-India reputed and financially strong developer is bringing a thoughtfully planned
+                        Brooklyn-themed premium residential community in the heart of KPHB.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/about%20.jpeg" alt="About Godrej Brooklyn Avenues"
+                        class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; max-height: 400px;">
                 </div>
             </div>
         </div>
@@ -194,62 +186,80 @@
     <section id="premium-community" class="py-5 bg-white border-bottom position-relative overflow-hidden">
         <div class="container" data-aos="fade-up">
             <div class="row g-0 shadow-sm rounded-4 overflow-hidden mb-5 border">
-                <!-- Left Column (Brown) -->
-                <div class="col-lg-5 p-4 p-md-5 d-flex flex-column justify-content-center text-white" style="background-color: #8B5A3D;">
-                    <h5 class="tracking-wide mb-4 text-uppercase fw-bold" style="letter-spacing: 4px;">Kukatpally</h5>
-                    <h2 class="display-5 fw-bold mb-5 font-heading">A Premium<br>Gated Community</h2>
-                    
-                    <div class="row g-4 mt-2">
-                        <div class="col-12 d-flex align-items-center">
-                            <div class="display-3 fw-bold font-heading me-4" style="width: 140px;">7.76</div>
-                            <div>
-                                <h3 class="fw-bold mb-0">Acres</h3>
-                                <p class="mb-0 small opacity-75">Premium land</p>
-                            </div>
-                        </div>
-                        <div class="col-12 d-flex align-items-center">
-                            <div class="display-3 fw-bold font-heading me-4" style="width: 140px;">G+46</div>
-                            <div>
-                                <h3 class="fw-bold mb-0">Floors</h3>
-                                <p class="mb-0 small opacity-75">Soaring heights</p>
-                            </div>
-                        </div>
-                        <div class="col-12 d-flex align-items-center">
-                            <div class="display-3 fw-bold font-heading me-4" style="width: 140px;">75%</div>
-                            <div>
-                                <h3 class="fw-bold mb-0">Open</h3>
-                                <p class="mb-0 small opacity-75">Green spaces</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Right Column (Vicinity) -->
-                <div class="col-lg-7 p-4 p-md-5" style="background-color: #FFFDF9;">
-                    <h4 class="text-center font-heading tracking-wide mb-4 text-dark text-uppercase" style="letter-spacing: 3px; color: #8B5A3D !important;">Project Vicinity</h4>
-                    
-                    <div class="mb-4 text-center">
-                        <p class="small text-muted mb-2 fst-italic">HITECH City Skyline</p>
-                        <img src="images/gallery_city.jpg" onerror="this.src='images/location 1.png'" alt="HITECH City" class="img-fluid rounded-2 shadow-sm w-100" style="height: 250px; object-fit: cover;">
+                <!-- Project Vicinity (Full Width Highlight Cards) -->
+                <div class="col-12 p-4 p-md-5" style="background-color: #FFFDF9;">
+                    <div class="text-center mb-5">
+                        <h4 class="font-heading tracking-wide text-dark text-uppercase mb-2" style="letter-spacing: 3px; color: #8B5A3D !important;">Project Vicinity</h4>
+                        <div class="divider-gradient mx-auto" style="width: 80px;"></div>
                     </div>
                     
-                    <div class="row g-3">
-                        <div class="col-6 text-center">
-                            <p class="small text-muted mb-2 fst-italic">KPHB Metro Station</p>
-                            <img src="images/location 2.png" onerror="this.src='images/location_map.png'" alt="Metro" class="img-fluid rounded-2 shadow-sm w-100" style="height: 150px; object-fit: cover;">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                            <div class="highlight-card p-4 rounded-4 shadow-sm h-100 border border-light transition-all text-center bg-white">
+                                <div class="icon-circle mb-3 mx-auto bg-soft-primary text-primary" style="width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background-color: rgba(123, 97, 255, 0.1);">
+                                    <i class="bi bi-building fs-3" style="color: #7B61FF;"></i>
+                                </div>
+                                <h5 class="fw-bold mb-3 text-dark font-heading">HITECH City Skyline</h5>
+                                <p class="text-muted small mb-0">Experience the dynamic views and close proximity to Hyderabad's premier IT hub, just 6-7 km away.</p>
+                            </div>
                         </div>
-                        <div class="col-6 text-center">
-                            <p class="small text-muted mb-2 fst-italic">Nexus Mall</p>
-                            <img src="images/gallery_livingroom.jpg" onerror="this.src='images/amenity_coworking.jpg'" alt="Mall" class="img-fluid rounded-2 shadow-sm w-100" style="height: 150px; object-fit: cover;">
+                        
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="highlight-card p-4 rounded-4 shadow-sm h-100 border border-light transition-all text-center bg-white">
+                                <div class="icon-circle mb-3 mx-auto bg-soft-primary text-primary" style="width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background-color: rgba(123, 97, 255, 0.1);">
+                                    <i class="bi bi-train-front fs-3" style="color: #7B61FF;"></i>
+                                </div>
+                                <h5 class="fw-bold mb-3 text-dark font-heading">KPHB Metro Station</h5>
+                                <p class="text-muted small mb-0">Seamless connectivity across the city, located conveniently just 5 minutes away from your doorstep.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="highlight-card p-4 rounded-4 shadow-sm h-100 border border-light transition-all text-center bg-white">
+                                <div class="icon-circle mb-3 mx-auto bg-soft-primary text-primary" style="width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background-color: rgba(123, 97, 255, 0.1);">
+                                    <i class="bi bi-bag fs-3" style="color: #7B61FF;"></i>
+                                </div>
+                                <h5 class="fw-bold mb-3 text-dark font-heading">Nexus Mall</h5>
+                                <p class="text-muted small mb-0">Your premium retail, dining, and entertainment destination right in the neighborhood.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Project Master Plan -->
-            <div class="text-center mb-5 mt-5 pt-4" data-aos="fade-up">
-                <h2 class="font-heading display-6 text-dark mb-4">Project Master Plan</h2>
-                <div class="d-inline-block shadow-lg rounded-4 overflow-hidden border">
-                    <img src="images/project_master_plan.png" alt="Project Master Plan" class="img-fluid w-100" style="max-height: 600px; object-fit: cover;" onerror="this.src='images/page_2.png'">
+            <!-- Project Master Plan & RERA -->
+            <div class="mt-4 mb-4" data-aos="fade-up">
+                <div class="row justify-content-center g-4">
+                    <!-- Master Plan -->
+                    <div class="col-lg-8">
+                        <div class="d-flex align-items-center mb-3">
+                            <h2 class="font-heading fs-3 text-dark mb-0 me-4">Project Master Plan</h2>
+                            <div class="flex-grow-1 d-none d-md-block" style="height: 2px; background: linear-gradient(to right, #BA8A15, transparent);"></div>
+                        </div>
+                        <div class="bg-white p-2 p-md-3 rounded-5 shadow-sm border border-light h-100">
+                            <div class="rounded-4 overflow-hidden position-relative bg-light d-flex justify-content-center align-items-center h-100" style="min-height: 250px;">
+                                <img src="images/project_master_plan.png" alt="Project Master Plan" class="img-fluid w-100 h-100"
+                                    style="object-fit: cover; max-height: 380px;" onerror="this.src='images/page_2.png'">
+                                <!-- Elegant Badge -->
+                                <div class="position-absolute top-0 end-0 p-3">
+                                    <span class="badge bg-white text-dark shadow-sm border border-light rounded-pill px-3 py-2 fw-medium" style="font-size: 0.8rem;"><i class="bi bi-aspect-ratio me-2" style="color: #BA8A15;"></i>7.76 Acres Layout</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- RERA Column -->
+                    <div class="col-lg-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <h2 class="font-heading fs-3 text-dark mb-0 me-4">Approvals</h2>
+                            <div class="flex-grow-1 d-none d-md-block" style="height: 2px; background: linear-gradient(to right, #BA8A15, transparent);"></div>
+                        </div>
+                        <div class="bg-white p-3 p-md-4 rounded-5 shadow-sm border border-light h-100 d-flex flex-column align-items-center justify-content-center text-center">
+                            <img src="images/images 1.jpeg" alt="RERA Certificate" class="img-fluid rounded-4 shadow-sm mb-3 border border-light" style="max-height: 140px; object-fit: contain; width: 100%;">
+                            <h5 class="fw-bold text-dark font-heading mb-1">RERA Approved Project</h5>
+                            <p class="text-muted small mb-0">Registration No:<br><span class="fw-bold text-dark">Coming Soon</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -360,52 +370,25 @@
                 <p class="text-muted">Brooklyn Museum inspired amenities for a luxury lifestyle.</p>
             </div>
 
-            <!-- New Clubhouse Banner -->
-            <div class="p-4 p-md-5 shadow-sm rounded-4 text-white text-center text-md-start mx-auto mb-5 border" style="background-color: #8B5A3D; max-width: 900px;" data-aos="fade-up">
-                <h5 class="tracking-wide mb-4 text-uppercase fw-bold" style="letter-spacing: 4px;">THE CLUBHOUSE</h5>
-                <h2 class="display-5 fw-bold mb-5 font-heading">One of Kukatpally's<br>Largest &amp; Finest</h2>
-                
-                <div class="row g-4 mt-2 justify-content-center justify-content-md-start text-center">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="bg-light py-4 px-3 rounded-2 h-100 d-flex flex-column justify-content-center shadow-sm" style="background-color: #FFFDF9 !important;">
-                            <h2 class="fw-bold font-heading mb-1" style="color: #BA8A15; font-size: 3rem;">G+7</h2>
-                            <p class="mb-0 small text-dark fw-bold text-uppercase tracking-wide">FLOORS</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="bg-light py-4 px-3 rounded-2 h-100 d-flex flex-column justify-content-center shadow-sm" style="background-color: #FFFDF9 !important;">
-                            <h2 class="fw-bold font-heading mb-1" style="color: #BA8A15; font-size: 3rem;">72,000</h2>
-                            <p class="mb-0 small text-dark fw-bold text-uppercase tracking-wide">SQ. FT.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="bg-light py-4 px-3 rounded-2 h-100 d-flex flex-column justify-content-center shadow-sm" style="background-color: #FFFDF9 !important;">
-                            <h2 class="fw-bold font-heading mb-1" style="color: #BA8A15; font-size: 3rem;">270&deg;</h2>
-                            <p class="mb-0 small text-dark fw-bold text-uppercase tracking-wide">VIEWS</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="row align-items-center g-5">
                 <div class="col-lg-6" data-aos="fade-right">
                     <div id="amenitiesSlider" class="carousel slide carousel-fade rounded-5 overflow-hidden shadow-lg"
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="4000">
-                                <img src="images/amenity_pool.jpg" class="d-block w-100" alt="Rooftop infinity pool"
+                                <img src="images/amenity%20swimming%20pool.jpeg" class="d-block w-100" alt="Rooftop infinity pool"
                                     style="height: 500px; object-fit: cover;">
                             </div>
                             <div class="carousel-item" data-bs-interval="4000">
-                                <img src="images/amenity_garden.jpg" class="d-block w-100" alt="Rooftop garden"
+                                <img src="images/amenity%20.jpeg" class="d-block w-100" alt="Rooftop garden"
                                     style="height: 500px; object-fit: cover;">
                             </div>
                             <div class="carousel-item" data-bs-interval="4000">
-                                <img src="images/amenity_coworking.jpg" class="d-block w-100" alt="Co-working spaces"
+                                <img src="images/amenity%20bedroom.jpeg" class="d-block w-100" alt="Co-working spaces"
                                     style="height: 500px; object-fit: cover;">
                             </div>
                             <div class="carousel-item" data-bs-interval="4000">
-                                <img src="images/amenity_gym.jpg" class="d-block w-100" alt="Gym"
+                                <img src="images/amenity%20gym.jpeg" class="d-block w-100" alt="Gym"
                                     style="height: 500px; object-fit: cover;">
                             </div>
                         </div>
@@ -471,63 +454,103 @@
                 <h2 class="font-heading display-6 text-dark mb-2">Location Advantage</h2>
                 <div class="divider-gradient mx-auto"></div>
             </div>
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <div class="rounded-5 shadow-lg overflow-hidden border border-white border-4 bg-white">
-                        <img src="images/location_map.png" alt="Location Map" class="img-fluid w-100"
-                            style="object-fit: cover; height: 100%;">
+            <div class="row g-4 g-lg-5 align-items-stretch">
+                <!-- Left: Master Plan / Vicinity Card -->
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div
+                        class="row g-0 shadow-lg rounded-5 overflow-hidden border border-white border-4 bg-white h-100">
+                        <!-- Brown Left Side -->
+                        <div class="col-sm-5 p-4 p-xl-5 d-flex flex-column text-white"
+                            style="background-color: #8B5A3D;">
+                            <h6 class="tracking-wide mb-4 text-uppercase fw-bold" style="letter-spacing: 3px;">LOCATION
+                            </h6>
+                            <h3 class="fw-bold mb-4 font-heading" style="line-height: 1.3;">Everything<br>You
+                                Need,<br>Minutes<br>Away</h3>
+
+                            <div class="mt-auto pt-4 small">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="fw-bold">KPHB Metro</span>
+                                    <span>5 min</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="fw-bold">Sujana Mall</span>
+                                    <span>5 min</span>
+                                </div>
+                                <div class="d-flex justify-content-between mb-2">
+                                    <span class="fw-bold">Hitec City</span>
+                                    <span>6-7 km</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="fw-bold">Gachibowli</span>
+                                    <span>7 km</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cream Right Side with Map -->
+                        <div class="col-sm-7 p-4 p-xl-5 text-center d-flex flex-column justify-content-between"
+                            style="background-color: #FFFDF9;">
+                            <h6 class="font-heading tracking-wide mb-3 text-dark text-uppercase fw-bold"
+                                style="letter-spacing: 2px; color: #8B5A3D !important;">PROJECT VICINITY MAP</h6>
+
+                            <div class="border border-2 rounded-2 overflow-hidden shadow-sm d-flex"
+                                style="border-color: #8B5A3D !important; flex-grow: 1;">
+                                <img src="images/location_map.png" alt="Vicinity Map" class="img-fluid w-100 h-100"
+                                    style="object-fit: cover; min-height: 150px;">
+                            </div>
+
+                            <div class="mt-4 text-start bg-white p-3 rounded-2 shadow-sm border">
+                                <h6 class="fw-bold mb-1 text-dark" style="font-size: 0.9rem;">HIGHWAY ACCESS</h6>
+                                <p class="small text-muted mb-0" style="font-size: 0.75rem; line-height: 1.4;">Direct
+                                    access to NH-65 connecting to Pune, Karnataka, Andhra Pradesh & beyond</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6" data-aos="fade-left">
-                    <div class="glass-card p-4 p-md-5 rounded-5 border-0 shadow-sm h-100 position-relative">
-                        <div class="position-absolute top-0 end-0 opacity-10 p-4">
-                            <i class="bi bi-geo-alt-fill text-primary" style="font-size: 5rem;"></i>
-                        </div>
-                        <ul class="list-unstyled mb-0 position-relative z-index-2 row g-3">
-                            <li class="col-md-6 d-flex align-items-center">
-                                <div class="bg-soft-primary text-primary rounded-circle p-3 me-3"><i
-                                        class="bi bi-train-front fs-4"></i></div>
+
+                <!-- Right: Detailed Location Points -->
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div
+                        class="glass-card p-4 p-xl-5 rounded-5 border-0 shadow-sm h-100 bg-white d-flex flex-column justify-content-center">
+                        <ul class="list-unstyled mb-0 row g-4">
+                            <li class="col-12 d-flex align-items-center">
+                                <div class="rounded-circle p-3 me-4 d-flex align-items-center justify-content-center shadow-sm"
+                                    style="background: #EEF2FF; color: #7B61FF !important; width: 60px; height: 60px;">
+                                    <i class="bi bi-train-front fs-3"></i>
+                                </div>
                                 <div>
-                                    <h5 class="fw-bold mb-0">8 min</h5><span class="text-muted small">KPHB Metro</span>
+                                    <h5 class="fw-bold mb-1 text-dark">5 mins</h5>
+                                    <span class="text-muted small fw-medium">KPHB Metro Station</span>
                                 </div>
                             </li>
-                            <li class="col-md-6 d-flex align-items-center">
-                                <div class="bg-soft-primary text-primary rounded-circle p-3 me-3"><i
-                                        class="bi bi-laptop fs-4"></i></div>
+                            <li class="col-12 d-flex align-items-center">
+                                <div class="rounded-circle p-3 me-4 d-flex align-items-center justify-content-center shadow-sm"
+                                    style="background: #F3F0FF; color: #A855F7 !important; width: 60px; height: 60px;">
+                                    <i class="bi bi-bag fs-3"></i>
+                                </div>
                                 <div>
-                                    <h5 class="fw-bold mb-0">15 min</h5><span class="text-muted small">HITEC City</span>
+                                    <h5 class="fw-bold mb-1 text-dark">5 mins</h5>
+                                    <span class="text-muted small fw-medium">Forum Sujana Mall</span>
                                 </div>
                             </li>
-                            <li class="col-md-6 d-flex align-items-center">
-                                <div class="bg-soft-primary text-primary rounded-circle p-3 me-3"><i
-                                        class="bi bi-hospital fs-4"></i></div>
+                            <li class="col-12 d-flex align-items-center">
+                                <div class="rounded-circle p-3 me-4 d-flex align-items-center justify-content-center shadow-sm"
+                                    style="background: #EFF6FF; color: #3B82F6 !important; width: 60px; height: 60px;">
+                                    <i class="bi bi-laptop fs-3"></i>
+                                </div>
                                 <div>
-                                    <h5 class="fw-bold mb-0">14 min</h5><span class="text-muted small">Yashoda
-                                        Hospital</span>
+                                    <h5 class="fw-bold mb-1 text-dark">6-7 km</h5>
+                                    <span class="text-muted small fw-medium">Hitec City, Mindspace & Raidurgam IT
+                                        Hubs</span>
                                 </div>
                             </li>
-                            <li class="col-md-6 d-flex align-items-center">
-                                <div class="bg-soft-primary text-primary rounded-circle p-3 me-3"><i
-                                        class="bi bi-bag fs-4"></i></div>
-                                <div>
-                                    <h5 class="fw-bold mb-0">7 min</h5><span class="text-muted small">Nexus Mall</span>
+                            <li class="col-12 d-flex align-items-center">
+                                <div class="rounded-circle p-3 me-4 d-flex align-items-center justify-content-center shadow-sm"
+                                    style="background: #F8FAFC; color: #64748B !important; width: 60px; height: 60px;">
+                                    <i class="bi bi-signpost-split fs-3"></i>
                                 </div>
-                            </li>
-                            <li class="col-md-6 d-flex align-items-center">
-                                <div class="bg-soft-primary text-primary rounded-circle p-3 me-3"><i
-                                        class="bi bi-book fs-4"></i></div>
                                 <div>
-                                    <h5 class="fw-bold mb-0">10 min</h5><span class="text-muted small">Global Edge
-                                        School</span>
-                                </div>
-                            </li>
-                            <li class="col-12 mt-3 d-flex align-items-center p-3 bg-white border rounded-4 shadow-sm">
-                                <div class="bg-primary text-white rounded-circle p-2 me-3"><i
-                                        class="bi bi-signpost-split fs-5"></i></div>
-                                <div>
-                                    <h6 class="fw-bold mb-0 text-dark">Highway Access</h6><span
-                                        class="text-muted small">Direct access to NH-65 connecting to Pune, Karnataka &
-                                        Andhra Pradesh</span>
+                                    <h5 class="fw-bold mb-1 text-dark">7 km</h5>
+                                    <span class="text-muted small fw-medium">Gachibowli ORR Circle</span>
                                 </div>
                             </li>
                         </ul>
@@ -655,25 +678,25 @@
             </div>
             <div class="masonry-gallery" data-aos="fade-up">
                 <div class="masonry-item">
-                    <img src="images/gallery_facade.jpg" alt="Facade">
+                    <img src="images/gallery%201.jpeg" alt="Facade">
                     <div class="masonry-caption">
                         <h5 class="mb-0 font-heading fw-bold text-white">Grand Facade</h5>
                     </div>
                 </div>
                 <div class="masonry-item">
-                    <img src="images/gallery_livingroom.jpg" alt="Living Room">
+                    <img src="images/gallery%202.jpeg" alt="Living Room">
                     <div class="masonry-caption">
                         <h5 class="mb-0 font-heading fw-bold text-white">Premium Interiors</h5>
                     </div>
                 </div>
                 <div class="masonry-item">
-                    <img src="images/gallery_lobby.jpg" alt="Lobby">
+                    <img src="images/gallery%203.jpeg" alt="Lobby">
                     <div class="masonry-caption">
                         <h5 class="mb-0 font-heading fw-bold text-white">Luxury Lobby</h5>
                     </div>
                 </div>
                 <div class="masonry-item">
-                    <img src="images/gallery_landscape.jpg" alt="Landscape">
+                    <img src="images/gallery%204.jpeg" alt="Landscape">
                     <div class="masonry-caption">
                         <h5 class="mb-0 font-heading fw-bold text-white">Lush Landscaping</h5>
                     </div>
