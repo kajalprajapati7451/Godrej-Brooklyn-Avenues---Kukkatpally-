@@ -1854,6 +1854,48 @@
             else nav.classList.remove('scrolled');
         });
     </script>
+    <!-- Mobile Bottom Sticky CTA (Bottom Slider) -->
+    <div class="mobile-sticky-cta d-md-none" style="border-top-left-radius: 20px; border-top-right-radius: 20px; padding: 15px; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);">
+        <div class="d-flex justify-content-between align-items-center w-100 gap-3">
+            <a href="tel:+910000000000" class="btn btn-outline-primary flex-fill rounded-pill d-flex justify-content-center align-items-center fw-bold" style="padding: 12px 0;">
+                <i class="bi bi-telephone-fill me-2"></i> Call
+            </a>
+            <button class="btn btn-gradient flex-fill rounded-pill d-flex justify-content-center align-items-center fw-bold btn-glow" type="button" data-bs-toggle="offcanvas" data-bs-target="#bottomSliderOffcanvas" aria-controls="bottomSliderOffcanvas" style="padding: 12px 0;">
+                <i class="bi bi-envelope-fill me-2"></i> Enquire Now
+            </button>
+        </div>
+    </div>
+
+    <!-- Bottom Slider Offcanvas (Mobile Lead Form) -->
+    <div class="offcanvas offcanvas-bottom rounded-top-5 shadow-lg border-0" tabindex="-1" id="bottomSliderOffcanvas" aria-labelledby="bottomSliderOffcanvasLabel" style="height: auto; max-height: 85vh;">
+        <div class="offcanvas-header border-bottom px-4 py-3 position-relative">
+            <div class="d-flex justify-content-center align-items-center w-100 position-absolute top-0 start-0 mt-2">
+                <div style="width: 40px; height: 5px; background: #e0e0e0; border-radius: 10px;"></div>
+            </div>
+            <h5 class="offcanvas-title font-heading fw-bold text-dark mt-3" id="bottomSliderOffcanvasLabel">Register Your Interest</h5>
+            <button type="button" class="btn-close shadow-none mt-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-4 py-4">
+            <div class="text-center mb-4">
+                <p class="text-muted small">Secure priority access and personalized assistance for Godrej Brooklyn Avenues.</p>
+            </div>
+            <form class="row g-3">
+                <div class="col-12">
+                    <input type="text" class="form-control premium-input bg-light" required placeholder="Full Name">
+                </div>
+                <div class="col-12">
+                    <input type="tel" class="form-control premium-input bg-light" required placeholder="Phone Number">
+                </div>
+                <div class="col-12">
+                    <input type="email" class="form-control premium-input bg-light" required placeholder="Email Address">
+                </div>
+                <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-gradient w-100 rounded-pill py-3 fw-bold shadow-hover">Submit Request</button>
+                </div>
+                <p class="small text-center mt-3 text-muted" style="font-size: 0.75rem;"><i class="bi bi-shield-lock me-1"></i> Your information is secure.</p>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
